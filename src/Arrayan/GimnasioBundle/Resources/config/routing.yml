@@ -1,0 +1,15 @@
+arrayan_gimnasio_homepage:
+    pattern:  /
+    defaults: { _controller: ArrayanGimnasioBundle:Default:index }
+
+start:
+    pattern: /start
+    defaults: { _controller: ArrayanGimnasioBundle:Fitness:start }
+
+feedback:
+    pattern: /feedback
+    defaults: { _controller: ArrayanGimnasioBundle:Fitness:feedback }
+
+attainment:
+    pattern: /attainment
+    defaults: { _controller: ArrayanGimnasioBundle:Fitness:attainment }

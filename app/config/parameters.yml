@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: gimbv
+    database_user: root
+    database_password: 45a8a5471fca1f1022c09ee687128d40
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: es
+    secret: 6931bf7b1c852915690a8831fc7745aa

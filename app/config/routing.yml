@@ -1,0 +1,4 @@
+arrayan_gimnasio:
+    resource: "@ArrayanGimnasioBundle/Resources/config/routing.yml"
+    prefix:   /
+

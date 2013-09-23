@@ -1,0 +1,7 @@
+parameters:
+#    arrayan_gimnasio.example.class: Arrayan\GimnasioBundle\Example
+
+services:
+#    arrayan_gimnasio.example:
+#        class: %arrayan_gimnasio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

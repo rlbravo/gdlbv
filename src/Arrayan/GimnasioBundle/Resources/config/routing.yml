@@ -7,8 +7,13 @@ start:
     defaults: { _controller: ArrayanGimnasioBundle:Fitness:start }
 
 feedback:
-    pattern: /feedback
+    pattern: /feedback/u/{hash}
     defaults: { _controller: ArrayanGimnasioBundle:Fitness:feedback }
+
+feedback_send:
+    pattern: /feedback/send
+    defaults: { _controller: ArrayanGimnasioBundle:Fitness:feedback }
+    requirements: { _method: post }
 
 attainment:
     pattern: /attainment
